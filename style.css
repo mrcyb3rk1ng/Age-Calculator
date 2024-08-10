@@ -1,0 +1,86 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: dodgerblue;
+}
+
+#Container{
+   width: 90%;
+   max-width: 500px;
+   background-color: ghostwhite;
+   border-radius: 10px;
+   margin: 25px auto;
+   padding: 25px 15px;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+#inputFeiled{
+   width: 95%;
+   margin: auto;
+   background-color: #D7EEFF;
+   padding: 10px;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   column-gap: 10px;
+   box-sizing: border-box;
+}
+
+input{
+   width: 70%;
+   height: 30px;
+   outline: none;
+   border: 1px solid dodgerblue;
+   padding: 0 10px;
+   border-radius: 5px;
+}
+
+button{
+   width: 30%;
+   border: none;
+   background-color: dodgerblue;
+   border-radius: 5px;
+   color: whitesmoke;
+   font-weight: 500;
+   transition:.5s;
+}
+
+button:hover{
+   background-color: #006CBD;
+}
+
+#outputFieled{
+   width: 95%;
+   margin: 25px auto 0 auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 10px;
+}
+
+#outputFieled div{
+   min-height: 80px;
+   border-radius: 5px;
+   font-size: 14px;
+   text-align: center;
+   background-color: #D8EEFF;
+   align-content: center;
+   box-sizing: border-box;
+   padding: 20px 0;
+}
+
+#outputFieled div p{
+   font-size: 40px;
+   font-weight: 500;
+   margin: 10px 0 0 0;
+}
+
+.copyr8{
+   font-size: 13px;
+}
+
+.copyr8 a{
+   color: dodgerblue;
+}
